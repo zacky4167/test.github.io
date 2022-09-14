@@ -1,0 +1,57 @@
+header {
+    background-color: rgba(27, 109, 157, 0.863);
+    height: 59px;
+}
+.headerlogo {
+    float: left;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: whitesmoke;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b4cfb086;
+    font-family: Arial, Helvetica, sans-serif;
+    background:linear-gradient(rgb(27, 109, 157), hsla(202, 71%, 36%, 0.432)),  url("wallpaper.jpg");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+.kiri {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.kanan {
+    float: right;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.37);
+    height: 100%;
+}
+.tekskiri {
+    padding-top: 220px;
+    text-align: left;
+    padding-left: 100px;
+    font-size: 30px;
+}
+.tekskanan img {
+    width: 50px;
+}
+.tekskanan {
+    padding-top: 300px;
+}
+.tekskanan a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.isihome {
+    color: white;
+}
